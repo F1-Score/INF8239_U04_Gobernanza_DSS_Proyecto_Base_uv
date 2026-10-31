@@ -1,0 +1,5 @@
+activity,R,A,C,I
+Data quality,Data Engineer,Product Owner,Data Scientist,Users
+Model validation,Data Scientist,Product Owner,Data Engineer; Privacy Officer,Affected representatives
+Deployment,ML Engineer,Product Owner,Data Scientist; Institutional Owner,Users
+Incident response,ML Engineer,Institutional Owner,Legal; Data Scientist,Affected representatives and users
