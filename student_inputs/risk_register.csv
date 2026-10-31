@@ -1,0 +1,9 @@
+id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual
+R01,El modelo prioriza de forma desigual a los grupos,Grupos territoriales evaluados,2,4,Auditar la equidad por grupo y exigir revisión humana,Equipo de datos,Informe de Fairlearn y registro de revisiones,high
+R02,Datos incompletos o erróneos producen prioridades equivocadas,Casos territoriales evaluados,3,3,Validar calidad e integridad antes de cada predicción,Equipo de datos,Pruebas de contrato de datos y reporte de validación,medium
+R03,El sistema se usa para fines no autorizados,Población que podría verse afectada,2,3,Limitar los usos permitidos y documentar la finalidad,Responsable institucional,Política de gobernanza y registro de autorizaciones,medium
+R04,Una recomendación se aplica como si fuera una decisión automática,Personas cuyos casos se revisan,1,4,Exigir aprobación humana antes de cualquier acción,Responsable operativo,Registro de aprobaciones y anulaciones,medium
+R05,Una recomendación cuestionada no tiene vía de revisión,Personas que podrían verse afectadas,2,2,Ofrecer apelación y revisión independiente,Responsable operativo,Registro de apelaciones y su resolución,low
+R06,Cambios en los datos degradan el desempeño del modelo,Casos territoriales evaluados,3,2,Monitorear indicadores y generar alertas,Equipo de datos,Reportes de monitoreo y alertas emitidas,medium
+R07,Se exponen atributos sensibles sin autorización,Grupos incluidos en la auditoría,2,4,Restringir el acceso y mantener los atributos protegidos fuera del modelo,Responsable de privacidad,Pruebas de privacidad y registro de accesos,high
+R08,No es posible reconstruir cómo se generó una recomendación,Responsables y personas afectadas,1,3,Registrar versión del modelo y política aplicada y acción humana,Responsable institucional,Historial de versiones y de decisiones,low

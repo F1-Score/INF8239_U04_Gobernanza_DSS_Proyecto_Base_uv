@@ -1,0 +1,5 @@
+stakeholder,benefit,harm,power,participation
+Persona afectada,Su caso se revisa antes cuando es prioritario,Demoras o trato desigual si el modelo se equivoca,low,Puede apelar y pedir revisión humana documentada
+Analista de revisión,Cuenta con un orden de trabajo justificado,Confiar en exceso en la recomendación (sesgo de automatización),medium,Recibe capacitación y registra cuándo descarta una recomendación
+Responsable institucional,Mejor control y trazabilidad de las prioridades,Responder por decisiones incorrectas o sin supervisión,high,Aprueba el uso y revisa los riesgos periódicamente
+Equipo de datos,Detecta a tiempo problemas de calidad y desempeño,Errores en datos o modelo que se trasladen a las recomendaciones,medium,Realiza auditorías técnicas y da seguimiento a los indicadores

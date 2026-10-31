@@ -1,0 +1,10 @@
+# Evaluación de impacto ético — LAB11 (caso territorial sintético)
+purpose: "Ordenar los casos territoriales sintéticos según su prioridad para que personal autorizado decida cuáles revisar primero."
+assisted_decision: "Sugerir el orden de revisión de los casos; la decisión sobre cada caso la toma siempre una persona."
+users: "Analistas de revisión y supervisores del DSS con acceso autorizado."
+affected_population: "En el ejercicio, registros sintéticos; en un despliegue real, las personas y comunidades cuyos casos se revisan."
+owner: "Responsable institucional del DSS: aprueba su uso, supervisa los riesgos y responde por las decisiones."
+non_predictive_alternative: "Revisión manual con una lista de criterios documentada y aplicada por orden de llegada."
+out_of_scope_use: "No usar el DSS para intervenir automáticamente, decidir elegibilidad ni declarar emergencias."
+withdrawal_condition: "Suspender el DSS si incumple los umbrales de desempeño, equidad o privacidad, o si falta supervisión humana efectiva."
+appeal_mechanism: "Cualquier recomendación puede impugnarse ante una persona autorizada, que registra la objeción, la revisión y la decisión final."
