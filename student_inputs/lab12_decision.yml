@@ -1,0 +1,7 @@
+# Decisión contextual — LAB12
+priority_harm: "Que casos positivos que necesitan revisión queden sin detectar, sobre todo si esto ocurre más en un grupo que en otro."
+primary_metric: "Recall (TPR) global y brecha de recall entre G1 y G2; la brecha de FPR se usa como métrica complementaria."
+tolerance: "Recall mínimo 0.68, brecha de recall máxima 0.16 y brecha de FPR máxima 0.16 (configs/governance.yml)."
+evidence: "Logistic: brecha de recall 0.138 y de FPR 0.125, dentro de tolerancia. Tree: 0.181 y 0.168, fuera de tolerancia. Logistic además pesa 3.56 KB frente a 7.87 KB."
+limitation: "Datos sintéticos y subgrupos interseccionales pequeños (G2 de 45-59 años tiene 8 registros). Una brecha observada no prueba discriminación causal."
+recommendation: "REVIEW. Logistic sigue como candidato para evaluación adicional, sin autorización de despliegue; se deben investigar las brechas y mantener la supervisión humana."
